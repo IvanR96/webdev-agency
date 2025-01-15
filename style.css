@@ -50,7 +50,7 @@ footer {
 
 @media (max-width: 680px) {
   .logo {
-    height: 80px;
+    height: 30%;
     width: 30%;
   }
 
@@ -70,5 +70,6 @@ footer {
     margin-bottom: 10px;
     width: 100%;
     display: inline;
+    object-fit: cover;
   }
 }
