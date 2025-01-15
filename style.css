@@ -13,67 +13,60 @@ body {
 
 h1 {
   font-size: 5rem;
-  color: white;
 }
 
-.logo{
-  height: 150px;
-  
-}
-.creative{
+.creative {
   color: indianred;
 }
 
-.card{
-  width: 45%;
+.logo {
+  width: 150px;
+  height: 150px;
 }
 
-.tile-image{
+footer {
+  text-align: right;
+  color: indianred;
+}
+
+.tile-image {
   height: 200px;
-  border-radius: 5%;
+  float: left;
+  border-radius: 10px;
 }
 
-.left{
+.left {
   float: left;
 }
 
-.right{
+.right {
   float: right;
 }
 
-footer{
-  text-align: right;
-  font-size: 1.5rem;
-  color: indianred;
+.card {
+  width: 45%;
 }
 
-@media (max-width: 680px){
-  .logo{
-    width: 50%;
-    object-fit: contain;
+@media (max-width: 680px) {
+  .logo {
+    width: 30%;
   }
 
-  h1{
+  h1 {
     font-size: 3.5rem;
     text-align: center;
   }
 
-  .card img{
-    margin-bottom: 10px;
-    object-fit: cover;
-    display: inline;
-    width: 100%;
-  }
-
-  .card{
+  .card {
     width: 100%;
     display: block;
     margin-bottom: 30px;
     text-align: justify;
   }
 
-  footer{
-    font-size: 1rem;
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
   }
 }
-
